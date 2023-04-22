@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins";
+}
+
+.layout-container {
+  background-color: rgba(0, 0, 0, 0.04);
+  display: flex;
+}
+
+.layout-container .drawer {
+  width: 240px;
+}
+
+.MuiDrawer-paper {
+  width: 240px;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+.MuiAppBar-root {
+  width: calc(100% - 240px) !important;
+}
+
+.yellow {
+  background-color: orange !important;
+}
+.pink {
+  background-color: palevioletred !important;
+}
+.green {
+  background-color: green !important;
+}
+
+.date {
+  flex-grow: 1;
+}
