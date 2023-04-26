@@ -6,7 +6,7 @@ This project was bootstrapped using [Vite](https://vitejs.dev/).
 
 ## Technologies
 
-- HTML,CSS
+- JSX,CSS
 - ES6
 - React
 - **Material UI**
